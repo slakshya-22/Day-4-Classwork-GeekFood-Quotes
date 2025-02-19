@@ -17,3 +17,5 @@ GeekFoods is a React-based web application that displays quotes and includes a r
 ```sh
 git clone https://github.com/your-username/geekfoods.git
 cd geekfoods
+npm install
+npm run dev
