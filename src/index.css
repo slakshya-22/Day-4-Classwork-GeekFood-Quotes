@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background: #111826;
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: 15px;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #2664eb;
+}
+
+@media screen and (max-width: 799px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+  
+}
+
+.get-started {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2664eb;
+  color: white;
+  outline: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.get-started:hover {
+  background-color: #00448d;
+  cursor: pointer;
+}
+
+.quotes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.quote-card {
+  background: #1f2a38;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1249px;
+  width: 80%;
+  text-align: center;
+}
+
+
+.quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #fff;
+}
+
+.author {
+  font-size: 1rem;
+  margin-top: 10px;
+  font-weight: bold;
+  color: grey;
+}
+
+footer {
+  background-color: #f2f3f5;
+}
+
+footer div {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px 32px 30px 32px;
+}
+
+footer div p {
+  max-width: 448px;
+  color: #525151;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 28px;
+}
+
+footer div ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+footer div ul li {
+  list-style: none;
+}
+
+footer div ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+footer div ul li a:hover {
+  color: #858585;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+ion-icon {
+  font-size: 1.5rem;
+  color: #374152;
+  transition: all 0.3s ease;
+}
+
+ion-icon:hover {
+  color: #858585;
+}
